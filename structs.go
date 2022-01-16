@@ -46,7 +46,7 @@ func main() {
 	newUser = *NewUser(firstName, lastName, birthdate)
 	// dereferencing the User pointer for NewUser
 
-	// newUser = User{} This creat,es an empty instance
+	// newUser = User{} This creates an empty instance
 	// If you don't use all values above the not used one will be created with default of empty string
 
 	// ... do something awesome with that gathered data
